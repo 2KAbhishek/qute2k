@@ -20,77 +20,58 @@
 <a href="https://github.com/2KAbhishek/qute2k/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/qute2k?style=flat&color=e06c75&label="> </a>
 
-<h3>Short Sweet Headline 🎇🎉</h3>
+<h3>The fastest and qutest browser 🌐🩷</h3>
 
 <figure>
-  <img src="images/screenshot.png" alt="qute2k in action">
+  <img src="images/screenshot.jpg" alt="qute2k in action">
   <br/>
   <figcaption>qute2k in action</figcaption>
 </figure>
 
 </div>
 
-qute2k is a `<utility/tool>` that allows `<target_audience>` to `<action>`.
+qute2k is a [qutebrowser](https://qutebrowser.org/) config that aims to make the browser fully keyboard navigable.
 
 ## ✨ Features
 
-- Supports foo
-- Can do bar
-- Works with bazz
+- Sane and easily expandable configs
+- Logical keybindings, inspired by vim ([nvim2k](https://github.com/2kabhishek/nvim2k))
 
 ## Setup
 
 ### ⚡ Requirements
 
-- foo >= bar
-- bazz
+- 'qutebrowser' 3.0+
 
 ### 🚀 Installation
 
 ```bash
 git clone https://github.com/2kabhishek/qute2k
-cd qute2k
-<install_command>
+ln -sfnv $PWD/qute2k $HOMW/.config/qutebrowser
 ```
 
 ### 💻 Usage
 
-```bash
-USAGE:
-    qute2k [FLAGS] [OPTIONS]
-Example:
-    qute2k
-```
+Launch qutebrowser after finishing installation steps.
 
-## What's Next
-
-Planning to add `<feature/module>`.
-
-### ✅ To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
+Use vim keybindings and ex (:) commands to navigate.
+Custom configured keybindings here: [config.py](./config.py)
 
 ##  Behind The Code
 
 ### 🌈 Inspiration
 
-qute2k was inspired by `<reason/idea>`.
+I have always wanted a mouse less workflow, but the browser was always a blocker, qute2k fixes it!!
 
 ### 💡 Challenges/Learnings
 
-- The main challenges were `<issue/difficulty>`
-- I learned about `<learning/accomplishment>`
+- The initial configuration process involved a lot of docs, but was worth it.
 
 ### 🧰 Tooling
 
 - [dots2k](https://github.com/2kabhishek/dots2k) — Dev Environment
 - [nvim2k](https://github.com/2kabhishek/nvim2k) — Personalized Editor
-
-### 🔍 More Info
-
-- [similar](https://github.com/2kabhishek/similar) — a related repo
+- [sway2k](https://github.com/2kabhishek/sway2k) — Desktop Environment
 
 <hr>
 
