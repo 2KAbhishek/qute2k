@@ -21,7 +21,8 @@ editor = "nvim"
 c.editor.command = [terminal, "-e", editor, "{}"]
 c.downloads.location.directory = "~/Downloads"
 c.zoom.default = "80%"
-c.tabs.show = "multiple"
+c.tabs.show = "switching"
+c.statusbar.show = "in-mode"
 c.auto_save.session = True
 c.url.auto_search = "naive"
 
