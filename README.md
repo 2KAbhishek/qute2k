@@ -23,7 +23,7 @@
 <h3>The fastest and qutest browser 🌐🩷</h3>
 
 <figure>
-  <img src="images/screenshot.jpg" alt="qute2k in action">
+  <img src="images/screenshot.png" alt="qute2k in action">
   <br/>
   <figcaption>qute2k in action</figcaption>
 </figure>
