@@ -127,8 +127,8 @@ config.bind("L", "tab-next")
 config.bind("<Ctrl-=>", "zoom-in")
 config.bind("<Ctrl-->", "zoom-out")
 
-config.bind("xs", "config-cycle statusbar.show always never")
-config.bind("xt", "config-cycle tabs.show always never")
+config.bind("cs", "config-cycle statusbar.show always in-mode")
+config.bind("ct", "config-cycle tabs.show multiple switching")
 
 config.bind(leader + "c", "config-edit")
 config.bind(leader + "C", "cmd-set-text -s :set -t")
