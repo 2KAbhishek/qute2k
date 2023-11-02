@@ -105,6 +105,7 @@ c.url.searchengines = {
     "am": "https://www.amazon.com/s?k={}",
     "aw": "https://wiki.archlinux.org/?search={}",
     "gg": "https://www.google.com/search?q={}",
+    "gh": "https://www.github.com/{}",
     "re": "https://www.reddit.com/r/{}",
     "rp": "https://www.github.com/2kabhishek/{}",
     "tx": "https://springhealth.atlassian.net/browse/{}",
@@ -153,6 +154,7 @@ config.bind(leader + "q", "tab-close")
 config.bind(leader + "Q", "close")
 config.bind(leader + "r", "config-source")
 config.bind(leader + "R", "restart")
+config.bind(leader + "t", "cmd-set-text -s :tab-select")
 config.bind(
     leader + "s", "screenshot " + screenshots_dir + "qute-" + timestamp + ".png"
 )
