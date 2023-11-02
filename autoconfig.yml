@@ -8,6 +8,7 @@ config_version: 2
 settings:
   content.desktop_capture:
     https://app.slack.com: true
+    https://teams.microsoft.com: true
   content.media.audio_capture:
     https://app.slack.com: true
     https://teams.microsoft.com: true
@@ -18,6 +19,7 @@ settings:
     https://teams.microsoft.com: true
   content.notifications.enabled:
     https://app.slack.com: true
+    https://calendar.google.com: true
     https://teams.microsoft.com: true
   content.site_specific_quirks.skip:
     global:
