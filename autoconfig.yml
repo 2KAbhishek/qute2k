@@ -9,6 +9,8 @@ settings:
   content.desktop_capture:
     https://app.slack.com: true
     https://teams.microsoft.com: true
+  content.javascript.clipboard:
+    global: access
   content.media.audio_capture:
     https://app.slack.com: true
     https://teams.microsoft.com: true
@@ -16,6 +18,7 @@ settings:
     https://app.slack.com: true
     https://teams.microsoft.com: true
   content.media.video_capture:
+    https://app.slack.com: true
     https://teams.microsoft.com: true
   content.notifications.enabled:
     https://app.slack.com: true
