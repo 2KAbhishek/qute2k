@@ -37,6 +37,11 @@ config.set(
 config.set("colors.webpage.darkmode.enabled", True)
 config.set("colors.webpage.preferred_color_scheme", "dark")
 
+# File handling
+config.set("fileselect.handler", "external")
+config.set("fileselect.single_file.command", [terminal, "-e", "ranger", "--choosefile", "{}"])
+config.set("fileselect.multiple_files.command", [terminal, "-e", "ranger", "--choosefiles", "{}"])
+
 # Colors
 accent = "#1688f0"
 blue = "#0f1d91"
