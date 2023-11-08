@@ -87,13 +87,16 @@ c.colors.tabs.selected.even.bg = accent
 c.colors.tabs.selected.odd.bg = accent
 
 # Font
-c.fonts.default_family = '"FiraCode Nerd Font"'
-c.fonts.default_size = "8pt"
-c.fonts.completion.entry = '8pt "FiraCode Nerd Font"'
-c.fonts.hints = '8pt "FiraCode Nerd Font"'
-c.fonts.debug_console = '8pt "FiraCode Nerd Font"'
-c.fonts.prompts = "default_size sans-serif"
-c.fonts.statusbar = '8pt "FiraCode Nerd Font"'
+font_size = "8pt"
+font_family = "FiraCode Nerd Font"
+font = font_size + " " + font_family
+c.fonts.default_size = font_size
+c.fonts.default_family = font_family
+c.fonts.completion.entry = font
+c.fonts.hints = font
+c.fonts.debug_console = font
+c.fonts.prompts = font
+c.fonts.statusbar = font
 
 # Home page
 c.url.default_page = "https://2kabhishek.github.io/links"
