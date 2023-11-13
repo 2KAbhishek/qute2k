@@ -24,6 +24,8 @@ settings:
     https://app.slack.com: true
     https://calendar.google.com: true
     https://teams.microsoft.com: true
+  content.register_protocol_handler:
+    https://calendar.google.com?cid=%25s: true
   content.site_specific_quirks.skip:
     global:
     - ua-slack
