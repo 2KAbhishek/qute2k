@@ -47,7 +47,10 @@ qute2k is a [qutebrowser](https://qutebrowser.org/) config that aims to make the
 
 ```bash
 git clone https://github.com/2kabhishek/qute2k
+# On Linux and Mac
 ln -sfnv $PWD/qute2k $HOMW/.config/qutebrowser
+# On Windows
+cmd /c mklink /d %APPDATA%\qutebrowser\config %CD%\qute2k
 ```
 
 ### 💻 Usage
