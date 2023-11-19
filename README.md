@@ -51,8 +51,11 @@ git clone https://github.com/2kabhishek/qute2k
 ln -sfnv $PWD/qute2k $HOME/.config/qutebrowser
 # On Mac
 ln -sfnv $PWD/qute2k $HOME/qutebrowser
+```
+
+```powershell
 # On Windows
-cmd /c mklink /d %APPDATA%\qutebrowser\config %CD%\qute2k
+New-Item -ItemType SymbolicLink -Path "$env:APPDATA\qutebrowser\config" -Target "$PWD\qute2k" -Force
 ```
 
 ### 💻 Usage
