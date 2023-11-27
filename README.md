@@ -73,7 +73,7 @@ Launch qutebrowser after finishing installation steps.
 
 Update variables section in [config.py](./config.py) according to your needs.
 
-Use vim keybindings and ex (:) commands for various actions.
+Use vim keybindings and ex (`:`) commands for various actions.
 
 ### ⌨️  Keybindings
 
