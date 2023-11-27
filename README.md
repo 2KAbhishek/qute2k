@@ -37,18 +37,27 @@ qute2k is a [qutebrowser](https://qutebrowser.org/) config that aims to make the
 - Sane and easily expandable configs
 - Logical keybindings, inspired by vim ([nvim2k](https://github.com/2kabhishek/nvim2k))
 
-## Setup
+## ⚡ Setup
 
-### ⚡ Requirements
+### ⚙️ Requirements
 
 - 'qutebrowser' 3.0+
 
-### 🚀 Installation
+### 💻 Installation
+
+Installation is as simple as cloning and symlinking
 
 ```bash
+# Clone Repo
 git clone https://github.com/2kabhishek/qute2k
+```
+
+```bash
 # On Linux
 ln -sfnv $PWD/qute2k $HOME/.config/qutebrowser
+```
+
+```bash
 # On Mac
 ln -sfnv $PWD/qute2k $HOME/qutebrowser
 ```
@@ -58,14 +67,69 @@ ln -sfnv $PWD/qute2k $HOME/qutebrowser
 New-Item -ItemType SymbolicLink -Path "$env:APPDATA\qutebrowser\config" -Target "$PWD\qute2k" -Force
 ```
 
-### 💻 Usage
+## 🚀 Usage
 
 Launch qutebrowser after finishing installation steps.
 
-Use vim keybindings and ex (:) commands to navigate.
-Custom configured keybindings here: [config.py](./config.py)
+Update variables section in [config.py](./config.py) according to your needs.
 
-##  Behind The Code
+Use vim keybindings and ex (:) commands for various actions.
+
+#### ⌨️  Keybindings
+
+> Leader is mapped to <Space> by default
+
+| Shortcut                       | Action                       | Command                        |
+| ------------------------------ | ---------------------------- | ------------------------------ |
+| <kbd>t</kbd>                   | Open in new tab              | `cmd-set-text -s :open -t`     |
+| <kbd>s</kbd>                   | Show hints                   | `hint`                         |
+| <kbd>a</kbd>                   | Enter insert mode            | `mode-enter insert`            |
+| <kbd>K</kbd>                   | Go back in history           | `back`                         |
+| <kbd>J</kbd>                   | Go forward in history        | `forward`                      |
+| <kbd>H</kbd>                   | Switch to the previous tab   | `tab-prev`                     |
+| <kbd>L</kbd>                   | Switch to the next tab       | `tab-next`                     |
+| <kbd>Ctrl-+</kbd>              | Zoom in                      | `zoom-in`                      |
+| <kbd>Ctrl--</kbd>              | Zoom out                     | `zoom-out`                     |
+| <kbd>Leader</kbd> <kbd>b</kbd> | Toggle status bar visibility | `config-cycle statusbar.show ` |
+| <kbd>Leader</kbd> <kbd>B</kbd> | Toggle tab bar visibility    | `config-cycle tabs.show `      |
+| <kbd>Leader</kbd> <kbd>c</kbd> | Edit configuration file      | `config-edit`                  |
+| <kbd>Leader</kbd> <kbd>C</kbd> | Set command in command mode  | `cmd-set-text -s :set -t`      |
+| <kbd>Leader</kbd> <kbd>d</kbd> | Open devtools                | `devtools`                     |
+| <kbd>Leader</kbd> <kbd>D</kbd> | Focus on devtools            | `devtools-focus`               |
+| <kbd>Leader</kbd> <kbd>e</kbd> | Edit text                    | `edit-text`                    |
+| <kbd>Leader</kbd> <kbd>E</kbd> | Edit command in $EDITOR      | `cmd-edit`                     |
+| <kbd>Leader</kbd> <kbd>i</kbd> | Activate hints for inputs    | `hint inputs`                  |
+| <kbd>Leader</kbd> <kbd>I</kbd> | Open this help               | `open -t` repo_url             |
+| <kbd>Leader</kbd> <kbd>h</kbd> | View history                 | `history`                      |
+| <kbd>Leader</kbd> <kbd>H</kbd> | Open help page               | `help`                         |
+| <kbd>Leader</kbd> <kbd>m</kbd> | List bookmarks               | `bookmark-list`                |
+| <kbd>Leader</kbd> <kbd>M</kbd> | Add bookmark                 | `bookmark-add`                 |
+| <kbd>Leader</kbd> <kbd>n</kbd> | Clone current tab            | `tab-clone`                    |
+| <kbd>Leader</kbd> <kbd>N</kbd> | Clone tab in new window      | `tab-clone -w`                 |
+| <kbd>Leader</kbd> <kbd>o</kbd> | Open link in new window      | `hint links window`            |
+| <kbd>Leader</kbd> <kbd>O</kbd> | Open link in private window  | `hint links run :open -p`      |
+| <kbd>Leader</kbd> <kbd>p</kbd> | Pin current tab              | `tab-pin`                      |
+| <kbd>Leader</kbd> <kbd>P</kbd> | Move tab to a new position   | `cmd-set-text -s :tab-move`    |
+| <kbd>Leader</kbd> <kbd>q</kbd> | Close current tab            | `tab-close`                    |
+| <kbd>Leader</kbd> <kbd>Q</kbd> | Close the browser            | `close`                        |
+| <kbd>Leader</kbd> <kbd>r</kbd> | Reload configuration file    | `config-source`                |
+| <kbd>Leader</kbd> <kbd>R</kbd> | Restart the browser          | `restart`                      |
+| <kbd>Leader</kbd> <kbd>s</kbd> | Take a screenshot            | `screenshot` + path            |
+| <kbd>Leader</kbd> <kbd>S</kbd> | View page source in editor   | `view-source --edit`           |
+| <kbd>Leader</kbd> <kbd>t</kbd> | Open tab switcher            | `cmd-set-text -s :tab-select`  |
+| <kbd>Leader</kbd> <kbd>T</kbd> | Close other tabs             | `tab-only`                     |
+| <kbd>Leader</kbd> <kbd>u</kbd> | Undo last action             | `undo`                         |
+| <kbd>Leader</kbd> <kbd>v</kbd> | Open link in mpv             | `hint links spawn` + mpv       |
+| <kbd>Leader</kbd> <kbd>V</kbd> | Open link in youtube-dl      | `hint links spawn ` + ytdl     |
+| <kbd>Leader</kbd> <kbd>w</kbd> | Open tab in another window   | `tab-give`                     |
+| <kbd>Leader</kbd> <kbd>W</kbd> | Take tab from another window | `cmd-set-text -s :tab-take`    |
+| <kbd>Leader</kbd> <kbd>y</kbd> | Yank link                    | `hint links yank`              |
+| <kbd>Leader</kbd> <kbd>x</kbd> | Quit the browser             | `quit --save`                  |
+| <kbd>Leader</kbd> <kbd>X</kbd> | Close other windows          | `window-only`                  |
+
+To edit keybindings visit: [config.py](./config.py)
+
+## 🧑‍💻 Behind The Code
 
 ### 🌈 Inspiration
 
@@ -95,4 +159,3 @@ I have always wanted a mouse less workflow, but the browser was always a blocker
 | <a href="https://2kabhishek.github.io/projects" target="_blank">Other Projects </a>
 
 </div>
-
