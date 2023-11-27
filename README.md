@@ -77,7 +77,7 @@ Use vim keybindings and ex (:) commands for various actions.
 
 ### ⌨️  Keybindings
 
-> Leader is mapped to <Space> by default
+> Leader is mapped to `Space` by default
 
 | Shortcut                       | Action                       | Command                        |
 | ------------------------------ | ---------------------------- | ------------------------------ |
