@@ -12,10 +12,12 @@ config.load_autoconfig()
 
 # Variables
 leader = " "
-screenshots_dir = "~/Pictures/Screenshots/"
+ss_dir = "~/Pictures/Screenshots/"
 timestamp = strftime("%Y-%m-%d-%H-%M-%S", localtime())  # updates on every config-source
 terminal = "foot"
 editor = "nvim"
+username = "2kabhishek"
+homepage = "https://2kabhishek.github.io/links"
 
 # General
 c.editor.command = [terminal, "-e", editor, "{}"]
@@ -39,8 +41,13 @@ config.set("colors.webpage.preferred_color_scheme", "dark")
 
 # File handling
 config.set("fileselect.handler", "external")
-config.set("fileselect.single_file.command", [terminal, "-e", "ranger", "--choosefile", "{}"])
-config.set("fileselect.multiple_files.command", [terminal, "-e", "ranger", "--choosefiles", "{}"])
+config.set(
+    "fileselect.single_file.command", [terminal, "-e", "ranger", "--choosefile", "{}"]
+)
+config.set(
+    "fileselect.multiple_files.command",
+    [terminal, "-e", "ranger", "--choosefiles", "{}"],
+)
 
 # Colors
 accent = "#1688f0"
@@ -104,8 +111,8 @@ c.fonts.prompts = font
 c.fonts.statusbar = font
 
 # Home page
-c.url.default_page = "https://2kabhishek.github.io/links"
-c.url.start_pages = "https://2kabhishek.github.io/links"
+c.url.default_page = homepage
+c.url.start_pages = homepage
 
 # Search engines
 c.url.searchengines = {
@@ -115,7 +122,7 @@ c.url.searchengines = {
     "gg": "https://www.google.com/search?q={}",
     "gh": "https://www.github.com/{}",
     "re": "https://www.reddit.com/r/{}",
-    "rp": "https://www.github.com/2kabhishek/{}",
+    "rp": "https://www.github.com/" + username + "/{}",
     "tx": "https://springhealth.atlassian.net/browse/{}",
     "wk": "https://en.wikipedia.org/wiki/{}",
     "yt": "https://www.youtube.com/results?search_query={}",
@@ -143,31 +150,39 @@ config.bind("L", "tab-next")
 config.bind("<Ctrl-=>", "zoom-in")
 config.bind("<Ctrl-->", "zoom-out")
 
-config.bind("cs", "config-cycle statusbar.show always in-mode")
-config.bind("ct", "config-cycle tabs.show multiple switching")
-
+config.bind(leader + "b", "config-cycle statusbar.show always in-mode")
+config.bind(leader + "B", "config-cycle tabs.show multiple switching")
 config.bind(leader + "c", "config-edit")
 config.bind(leader + "C", "cmd-set-text -s :set -t")
 config.bind(leader + "d", "devtools")
 config.bind(leader + "D", "devtools-focus")
 config.bind(leader + "e", "edit-text")
 config.bind(leader + "E", "cmd-edit")
+config.bind(leader + "i", "hint inputs")
+config.bind(leader + "I", "open -t https://github.com/2kabhishek/qute2k#-keybindings")
 config.bind(leader + "h", "history")
 config.bind(leader + "H", "help")
 config.bind(leader + "m", "bookmark-list")
 config.bind(leader + "M", "bookmark-add")
+config.bind(leader + "n", "tab-clone")
+config.bind(leader + "N", "tab-clone -w")
+config.bind(leader + "o", "hint links window")
+config.bind(leader + "O", "hint links run :open -p {hint-url}")
 config.bind(leader + "p", "tab-pin")
 config.bind(leader + "P", "cmd-set-text -s :tab-move")
 config.bind(leader + "q", "tab-close")
 config.bind(leader + "Q", "close")
 config.bind(leader + "r", "config-source")
 config.bind(leader + "R", "restart")
-config.bind(leader + "t", "cmd-set-text -s :tab-select")
-config.bind(
-    leader + "s", "screenshot " + screenshots_dir + "qute-" + timestamp + ".png"
-)
+config.bind(leader + "s", "screenshot " + ss_dir + "qute-" + timestamp + ".png")
 config.bind(leader + "S", "view-source --edit")
+config.bind(leader + "t", "cmd-set-text -s :tab-select")
+config.bind(leader + "T", "tab-only")
 config.bind(leader + "u", "undo")
 config.bind(leader + "v", "hint links spawn mpv {hint-url}")
 config.bind(leader + "V", "hint links spawn " + terminal + "-e youtube-dl {hint-url}")
+config.bind(leader + "w", "tab-give")
+config.bind(leader + "W", "cmd-set-text -s :tab-take")
+config.bind(leader + "y", "hint links yank")
 config.bind(leader + "x", "quit --save")
+config.bind(leader + "X", "window-only")
