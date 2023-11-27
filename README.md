@@ -75,7 +75,7 @@ Update variables section in [config.py](./config.py) according to your needs.
 
 Use vim keybindings and ex (:) commands for various actions.
 
-#### ⌨️  Keybindings
+### ⌨️  Keybindings
 
 > Leader is mapped to <Space> by default
 
