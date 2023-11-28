@@ -139,7 +139,9 @@ c.aliases = {
 
 # Keybindings
 config.bind("t", "cmd-set-text -s :open -t")
-config.bind("s", "hint")
+config.bind("O", "cmd-set-text -s :open -w")
+config.bind("P", "cmd-set-text -s :open -p")
+config.bind("W", "tab-clone -w")
 config.bind("a", "mode-enter insert")
 
 config.bind("K", "back")

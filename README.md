@@ -75,19 +75,21 @@ Update variables section in [config.py](./config.py) according to your needs.
 
 Use vim keybindings and ex (`:`) commands for various actions.
 
-### ⌨️  Keybindings
+### ⌨️ Keybindings
 
 > Leader is mapped to `Space` by default
 
 | Shortcut                       | Action                       | Command                        |
 | ------------------------------ | ---------------------------- | ------------------------------ |
-| <kbd>t</kbd>                   | Open in new tab              | `cmd-set-text -s :open -t`     |
-| <kbd>s</kbd>                   | Show hints                   | `hint`                         |
 | <kbd>a</kbd>                   | Enter insert mode            | `mode-enter insert`            |
-| <kbd>K</kbd>                   | Go back in history           | `back`                         |
-| <kbd>J</kbd>                   | Go forward in history        | `forward`                      |
+| <kbd>t</kbd>                   | Open in new tab              | `cmd-set-text -s :open -t`     |
+| <kbd>O</kbd>                   | Open in new window           | `cmd-set-text -s :open -w`     |
+| <kbd>P</kbd>                   | Open in private window       | `cmd-set-text -s :open -p`     |
+| <kbd>W</kbd>                   | Cline tab in new window      | `tab-give -w`                  |
 | <kbd>H</kbd>                   | Switch to the previous tab   | `tab-prev`                     |
 | <kbd>L</kbd>                   | Switch to the next tab       | `tab-next`                     |
+| <kbd>K</kbd>                   | Go back in history           | `back`                         |
+| <kbd>J</kbd>                   | Go forward in history        | `forward`                      |
 | <kbd>Ctrl-+</kbd>              | Zoom in                      | `zoom-in`                      |
 | <kbd>Ctrl--</kbd>              | Zoom out                     | `zoom-out`                     |
 | <kbd>Leader</kbd> <kbd>b</kbd> | Toggle status bar visibility | `config-cycle statusbar.show ` |
