@@ -136,6 +136,7 @@ c.url.searchengines = {
     "ud": "https://urbandictionary.com/define.php?term={}",
     "wk": "https://en.wikipedia.org/wiki/{}",
     "yt": "https://youtube.com/results?search_query={}",
+    "ytm": "https://music.youtube.com/search?q={}",
 }
 
 # Aliases
