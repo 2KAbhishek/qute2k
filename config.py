@@ -117,15 +117,25 @@ c.url.start_pages = homepage
 # Search engines
 c.url.searchengines = {
     "DEFAULT": "https://duckduckgo.com/?q={}",
-    "am": "https://www.amazon.com/s?k={}",
+    "am": "https://amazon.com/s?k={}",
     "aw": "https://wiki.archlinux.org/?search={}",
-    "gg": "https://www.google.com/search?q={}",
-    "gh": "https://www.github.com/{}",
-    "re": "https://www.reddit.com/r/{}",
-    "rp": "https://www.github.com/" + username + "/{}",
+    "bn": "https://bing.com/search?q={}",
+    "dd": "https://duckduckgo.com/?q={}",
+    "gh": "https://github.com/search?q={}",
+    "gg": "https://google.com/search?q={}",
+    "gho": "https://github.com/{}",
+    "ghr": "https://github.com/" + username + "/{}",
+    "mp": "https://google.com/maps?q={}",
+    "rd": "https://reddit.com/search/?q={}",
+    "rds": "https://reddit.com/r/{}",
+    "rt": "https://rottentomatoes.com/search?search={}",
+    "so": "https://stackoverflow.com/search?q={}",
+    "sp": "https://open.spotify.com/search/{}",
+    "tw": "https://twitter.com/search?q={}",
     "tx": "https://springhealth.atlassian.net/browse/{}",
+    "ud": "https://urbandictionary.com/define.php?term={}",
     "wk": "https://en.wikipedia.org/wiki/{}",
-    "yt": "https://www.youtube.com/results?search_query={}",
+    "yt": "https://youtube.com/results?search_query={}",
 }
 
 # Aliases
