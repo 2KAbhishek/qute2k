@@ -1,5 +1,6 @@
 ai https://chat.openai.com/
 am https://amazon.com/
+cal https://calendar.google.com
 ds https://discord.com
 gg https://google.com
 gh https://github.com
@@ -8,6 +9,7 @@ gm https://gmail.com
 hn https://news.ycombinator.com
 kp https://keep.google.com
 ld https://launchdarkly.com
+ln https://linkedin.com
 pd https://pairdrop.net
 sb https://socialblade.com/youtube/c/2kabhishek
 sl https://app.slack.com/
