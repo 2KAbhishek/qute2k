@@ -22,7 +22,7 @@ homepage = "https://2kabhishek.github.io/links"
 # General
 c.editor.command = [terminal, "-e", editor, "{}"]
 c.downloads.location.directory = "~/Downloads"
-c.zoom.default = "80%"
+c.zoom.default = "75%"
 c.tabs.show = "switching"
 c.statusbar.show = "in-mode"
 c.auto_save.session = True
@@ -198,5 +198,6 @@ config.bind(leader + "V", "hint links spawn " + terminal + "-e youtube-dl {hint-
 config.bind(leader + "w", "cmd-set-text -s :tab-take")
 config.bind(leader + "W", "tab-give")
 config.bind(leader + "y", "hint links yank")
+config.bind(leader + "Y", "hint links yank --rapid")
 config.bind(leader + "x", "quit --save")
 config.bind(leader + "X", "window-only")
