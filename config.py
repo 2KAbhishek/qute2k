@@ -10,6 +10,13 @@ c = c  # noqa: F821
 
 config.load_autoconfig()
 
+# User agent
+config.set(
+    "content.headers.user_agent",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+    "*",
+)
+
 # Variables
 leader = " "
 ss_dir = "~/Pictures/Screenshots/"
@@ -36,13 +43,6 @@ c.downloads.location.directory = "~/Downloads"
 c.downloads.remove_finished = 5000
 c.downloads.position = "bottom"
 c.downloads.location.suggestion = "both"
-
-# User agent
-config.set(
-    "content.headers.user_agent",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-    "*",
-)
 
 # Dark mode
 c.colors.webpage.darkmode.enabled= True
