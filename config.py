@@ -28,8 +28,8 @@ c.zoom.default = "75%"
 c.scrolling.bar = "when-searching"
 c.statusbar.show = "in-mode"
 c.tabs.show = "switching"
-c.tabs.new_position.related = "last"
 c.tabs.last_close = "close"
+# c.tabs.new_position.related = "last"
 
 # Downloads
 c.downloads.location.directory = "~/Downloads"
