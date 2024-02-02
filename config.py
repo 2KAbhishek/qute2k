@@ -21,29 +21,34 @@ homepage = "https://2kabhishek.github.io/links"
 
 # General
 c.editor.command = [terminal, "-e", editor, "{}"]
-c.downloads.location.directory = "~/Downloads"
-c.zoom.default = "75%"
-c.tabs.show = "switching"
-c.statusbar.show = "in-mode"
 c.auto_save.session = True
-c.url.auto_search = "naive"
+c.zoom.default = "75%"
+
+# Layout
+c.scrolling.bar = "when-searching"
+c.statusbar.show = "in-mode"
+c.tabs.show = "switching"
+c.tabs.new_position.related = "last"
+c.tabs.last_close = "close"
+
+# Downloads
+c.downloads.location.directory = "~/Downloads"
+c.downloads.remove_finished = 5000
+c.downloads.position = "bottom"
+c.downloads.location.suggestion = "both"
 
 # User agent
 c.content.headers.user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 
 # Dark mode
-config.set("colors.webpage.darkmode.enabled", True)
-config.set("colors.webpage.preferred_color_scheme", "dark")
+c.colors.webpage.darkmode.enabled= True
+c.colors.webpage.preferred_color_scheme = "dark"
+c.qt.args = ["force-dark-mode", "dark-mode-settings"]
 
 # File handling
-config.set("fileselect.handler", "external")
-config.set(
-    "fileselect.single_file.command", [terminal, "-e", "ranger", "--choosefile", "{}"]
-)
-config.set(
-    "fileselect.multiple_files.command",
-    [terminal, "-e", "ranger", "--choosefiles", "{}"],
-)
+c.fileselect.handler = "external"
+c.fileselect.single_file.command = [terminal, "-e", "ranger", "--choosefile", "{}"]
+c.fileselect.multiple_files.command = [terminal, "-e", "ranger", "--choosefiles", "{}"]
 
 # Colors
 accent = "#1688f0"
