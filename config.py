@@ -50,9 +50,9 @@ c.colors.webpage.preferred_color_scheme = "dark"
 c.qt.args = ["force-dark-mode", "dark-mode-settings"]
 
 # File handling
-c.fileselect.handler = "external"
-c.fileselect.single_file.command = [terminal, "-e", "ranger", "--choosefile", "{}"]
-c.fileselect.multiple_files.command = [terminal, "-e", "ranger", "--choosefiles", "{}"]
+# c.fileselect.handler = "external"
+# c.fileselect.single_file.command = [terminal, "-e", "ranger", "--choosefile", "{}"]
+# c.fileselect.multiple_files.command = [terminal, "-e", "ranger", "--choosefiles", "{}"]
 
 # Colors
 accent = "#1688f0"
