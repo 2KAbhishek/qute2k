@@ -77,6 +77,8 @@ Use vim keybindings and ex (`:`) commands for various actions.
 
 ### ⌨️ Keybindings
 
+This table contains all the custom keybindings added by qute2k, find [default qutebrowser bindings here](qute://help/img/cheatsheet-big.png)
+
 > Leader is mapped to `Space` by default
 
 | Shortcut                       | Action                       | Command                        |
@@ -100,10 +102,11 @@ Use vim keybindings and ex (`:`) commands for various actions.
 | <kbd>Leader</kbd> <kbd>D</kbd> | Focus on devtools            | `devtools-focus`               |
 | <kbd>Leader</kbd> <kbd>e</kbd> | Edit text                    | `edit-text`                    |
 | <kbd>Leader</kbd> <kbd>E</kbd> | Edit command in $EDITOR      | `cmd-edit`                     |
-| <kbd>Leader</kbd> <kbd>i</kbd> | Activate hints for inputs    | `hint inputs`                  |
-| <kbd>Leader</kbd> <kbd>I</kbd> | Open this help               | `open -t` repo_url             |
+| <kbd>Leader</kbd> <kbd>f</kbd> | Open multiple links          | `edit-text`                    |
 | <kbd>Leader</kbd> <kbd>h</kbd> | View history                 | `history`                      |
 | <kbd>Leader</kbd> <kbd>H</kbd> | Open help page               | `help`                         |
+| <kbd>Leader</kbd> <kbd>i</kbd> | Activate hints for inputs    | `hint inputs`                  |
+| <kbd>Leader</kbd> <kbd>I</kbd> | Open this help               | `open -t` repo_url             |
 | <kbd>Leader</kbd> <kbd>m</kbd> | List bookmarks               | `bookmark-list`                |
 | <kbd>Leader</kbd> <kbd>M</kbd> | Add bookmark                 | `bookmark-add`                 |
 | <kbd>Leader</kbd> <kbd>n</kbd> | Clone current tab            | `tab-clone`                    |
