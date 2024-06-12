@@ -21,7 +21,7 @@ config.set(
 leader = " "
 ss_dir = "~/Pictures/Screenshots/"
 timestamp = strftime("%Y-%m-%d-%H-%M-%S", localtime())  # updates on every config-source
-terminal = "foot"
+terminal = "alacritty"
 editor = "nvim"
 username = "2kabhishek"
 homepage = "https://2kabhishek.github.io/links"
