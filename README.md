@@ -59,7 +59,7 @@ ln -sfnv $PWD/qute2k $HOME/.config/qutebrowser
 
 ```bash
 # On Mac
-ln -sfnv $PWD/qute2k $HOME/qutebrowser
+ln -sfnv $PWD/qute2k $HOME/.qutebrowser
 ```
 
 ```powershell
