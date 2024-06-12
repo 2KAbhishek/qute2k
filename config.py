@@ -46,7 +46,7 @@ c.downloads.position = "bottom"
 c.downloads.location.suggestion = "both"
 
 # Dark mode
-c.colors.webpage.darkmode.enabled= True
+c.colors.webpage.darkmode.enabled = True
 c.colors.webpage.preferred_color_scheme = "dark"
 c.qt.args = ["force-dark-mode", "dark-mode-settings"]
 
@@ -131,7 +131,7 @@ c.url.searchengines = {
     "gg": "https://google.com/search?q={}",
     "gho": "https://github.com/{}",
     "ghr": "https://github.com/" + username + "/{}",
-    "jr": "https://springhealth.atlassian.net/browse/{}",
+    "jr": "https://healthsparq.atlassian.net/browse/{}",
     "mp": "https://google.com/maps?q={}",
     "rd": "https://reddit.com/search/?q={}",
     "rds": "https://reddit.com/r/{}",
@@ -165,46 +165,52 @@ config.bind("K", "back")
 config.bind("J", "forward")
 config.bind("H", "tab-prev")
 config.bind("L", "tab-next")
-config.bind("Q", "tab-close")
+config.bind("Q", "close")
 
 config.bind("<Ctrl-=>", "zoom-in")
 config.bind("<Ctrl-->", "zoom-out")
 
-config.bind(leader + "b", "config-cycle statusbar.show always in-mode")
-config.bind(leader + "B", "config-cycle tabs.show multiple switching")
-config.bind(leader + "c", "config-edit")
-config.bind(leader + "C", "cmd-set-text -s :set -t")
-config.bind(leader + "d", "devtools")
-config.bind(leader + "D", "devtools-focus")
-config.bind(leader + "e", "edit-text")
-config.bind(leader + "E", "cmd-edit")
-config.bind(leader + "f", "hint links tab-bg --rapid")
-config.bind(leader + "i", "hint inputs")
-config.bind(leader + "I", "open -t https://github.com/2kabhishek/qute2k")
-config.bind(leader + "h", "history")
-config.bind(leader + "H", "help")
-config.bind(leader + "m", "bookmark-list")
-config.bind(leader + "M", "bookmark-add")
-config.bind(leader + "n", "tab-clone")
-config.bind(leader + "N", "tab-clone -w")
-config.bind(leader + "o", "hint links window")
-config.bind(leader + "O", "hint links run :open -p {hint-url}")
-config.bind(leader + "p", "tab-pin")
-config.bind(leader + "P", "cmd-set-text -s :tab-move")
-config.bind(leader + "q", "tab-close")
-config.bind(leader + "Q", "close")
-config.bind(leader + "r", "config-source")
-config.bind(leader + "R", "restart")
-config.bind(leader + "s", "screenshot " + ss_dir + "qute-" + timestamp + ".png")
-config.bind(leader + "S", "view-source --edit")
-config.bind(leader + "t", "cmd-set-text -s :tab-select")
-config.bind(leader + "T", "tab-only")
-config.bind(leader + "u", "undo")
-config.bind(leader + "v", "hint links spawn mpv {hint-url}")
-config.bind(leader + "V", "hint links spawn " + terminal + "-e youtube-dl {hint-url}")
-config.bind(leader + "w", "cmd-set-text -s :tab-take")
-config.bind(leader + "W", "tab-give")
-config.bind(leader + "y", "hint links yank")
-config.bind(leader + "Y", "hint links yank --rapid")
+config.bind(leader + "cb", "config-cycle statusbar.show always in-mode")
+config.bind(leader + "ce", "config-edit")
+config.bind(leader + "ch", "help")
+config.bind(leader + "ci", "open -t https://github.com/2kabhishek/qute2k")
+config.bind(leader + "cr", "config-source")
+config.bind(leader + "cs", "cmd-set-text -s :set -t")
+config.bind(leader + "ct", "config-cycle tabs.show multiple switching")
+
+config.bind(leader + "dd", "devtools")
+config.bind(leader + "de", "edit-text")
+config.bind(leader + "dc", "cmd-edit")
+config.bind(leader + "df", "devtools-focus")
+config.bind(leader + "dp", "screenshot " + ss_dir + "qute-" + timestamp + ".png")
+config.bind(leader + "ds", "view-source --edit")
+
+config.bind(leader + "hc", "hint links yank --rapid")
+config.bind(leader + "hd", "hint links spawn " + terminal + "-e youtube-dl {hint-url}")
+config.bind(leader + "hh", "hint links tab-bg --rapid")
+config.bind(leader + "hi", "hint inputs")
+config.bind(leader + "ho", "hint links window")
+config.bind(leader + "hp", "hint links run :open -p {hint-url}")
+config.bind(leader + "hv", "hint links spawn mpv {hint-url}")
+config.bind(leader + "hy", "hint links yank")
+
+config.bind(leader + "qa", "close")
+config.bind(leader + "qq", "tab-close")
+config.bind(leader + "qr", "restart")
+config.bind(leader + "qt", "tab-only")
+config.bind(leader + "qw", "window-only")
+config.bind(leader + "qx", "quit --save")
+
+config.bind(leader + "ta", "bookmark-add")
+config.bind(leader + "tb", "bookmark-list")
+config.bind(leader + "tc", "tab-clone")
+config.bind(leader + "td", "tab-clone -w")
+config.bind(leader + "tg", "tab-give")
+config.bind(leader + "th", "history")
+config.bind(leader + "tm", "cmd-set-text -s :tab-move")
+config.bind(leader + "tp", "tab-pin")
+config.bind(leader + "tt", "cmd-set-text -s :tab-select")
+config.bind(leader + "tu", "undo")
+config.bind(leader + "tw", "cmd-set-text -s :tab-take")
+
 config.bind(leader + "x", "quit --save")
-config.bind(leader + "X", "window-only")
