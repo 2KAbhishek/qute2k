@@ -30,6 +30,7 @@ homepage = "https://2kabhishek.github.io/links"
 c.editor.command = [terminal, "-e", editor, "{}"]
 c.auto_save.session = True
 c.zoom.default = "75%"
+c.window.hide_decoration = True
 
 # Layout
 c.scrolling.bar = "when-searching"
