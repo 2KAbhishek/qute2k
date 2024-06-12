@@ -169,6 +169,8 @@ config.bind("Q", "close")
 
 config.bind("<Ctrl-=>", "zoom-in")
 config.bind("<Ctrl-->", "zoom-out")
+config.bind("<Meta-=>", "zoom-in")
+config.bind("<Meta-->", "zoom-out")
 
 config.bind(leader + "cb", "config-cycle statusbar.show always in-mode")
 config.bind(leader + "ce", "config-edit")
@@ -199,7 +201,6 @@ config.bind(leader + "qq", "tab-close")
 config.bind(leader + "qr", "restart")
 config.bind(leader + "qt", "tab-only")
 config.bind(leader + "qw", "window-only")
-config.bind(leader + "qx", "quit --save")
 
 config.bind(leader + "ta", "bookmark-add")
 config.bind(leader + "tb", "bookmark-list")
