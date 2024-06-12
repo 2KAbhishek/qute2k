@@ -105,7 +105,7 @@ c.colors.tabs.selected.even.bg = accent
 c.colors.tabs.selected.odd.bg = accent
 
 # Font
-font_size = "8pt"
+font_size = "12pt"
 font_family = "FiraCode Nerd Font"
 font = font_size + " " + font_family
 c.fonts.default_size = font_size
