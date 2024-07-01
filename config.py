@@ -30,7 +30,7 @@ homepage = "https://2kabhishek.github.io/links"
 c.editor.command = [terminal, "-e", editor, "{}"]
 c.auto_save.session = True
 c.zoom.default = "75%"
-c.window.hide_decoration = True
+# c.window.hide_decoration = True # Causes issues with aerospace tiling https://github.com/nikitabobko/AeroSpace/issues/276
 
 # Layout
 c.scrolling.bar = "when-searching"
