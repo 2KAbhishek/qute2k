@@ -165,6 +165,33 @@ This table contains all the custom keybindings added by qute2k, find [default qu
 
 To edit keybindings visit: [config.py](./config.py)
 
+### 🔎 Search Engines
+
+| Keybinding         | Action                                                             |
+| ------------------ | ------------------------------------------------------------------ |
+| <key>DEFAULT</key> | [DuckDuckGo](https://duckduckgo.com/?q={})                         |
+| <key>am</key>      | [Amazon](https://amazon.com/s?k={})                                |
+| <key>aw</key>      | [Arch Linux](https://wiki.archlinux.org/?search={})                |
+| <key>bn</key>      | [Bing](https://bing.com/search?q={})                               |
+| <key>dd</key>      | [DuckDuckGo](https://duckduckgo.com/?q={})                         |
+| <key>gg</key>      | [Google](https://google.com/search?q={})                           |
+| <key>gh</key>      | [GitHub](https://github.com/search?q={})                           |
+| <key>gho</key>     | [GitHub Open](https://github.com/{})                               |
+| <key>ghp</key>     | [GitHub PRs](https://www.github.com/pulls)                         |
+| <key>ghr</key>     | [GitHub Repo](https://github.com/2kabhishek/{})                    |
+| <key>jr</key>      | [JIRA Ticket](https://healthsparq.atlassian.net/browse/{})         |
+| <key>mp</key>      | [Google Maps](https://google.com/maps?q={})                        |
+| <key>rd</key>      | [Reddit](https://reddit.com/search/?q={})                          |
+| <key>rds</key>     | [Reddit Sub](https://reddit.com/r/{})                              |
+| <key>rt</key>      | [Rotten Tomatoes](https://rottentomatoes.com/search?search={})     |
+| <key>so</key>      | [Stack Overflow](https://stackoverflow.com/search?q={})            |
+| <key>sp</key>      | [Spotify](https://open.spotify.com/search/{})                      |
+| <key>tw</key>      | [Twitter](https://twitter.com/search?q={})                         |
+| <key>ud</key>      | [Urban Dictionary](https://urbandictionary.com/define.php?term={}) |
+| <key>wk</key>      | [Wikipedia](https://en.wikipedia.org/wiki/{})                      |
+| <key>yt</key>      | [YouTube](https://youtube.com/results?search_query={})             |
+| <key>ytm</key>     | [YouTube Music](https://music.youtube.com/search?q={})             |
+
 ## 🧑‍💻 Behind The Code
 
 ### 🌈 Inspiration
