@@ -106,7 +106,7 @@ This table contains all the custom keybindings added by qute2k, find [default qu
 | Shortcut                        | Action                       |
 | ------------------------------- | ---------------------------- |
 | <kbd>Leader</kbd> <kbd>cb</kbd> | Toggle status bar visibility |
-| <kbd>Leader</kbd> <kbd>ce</kbd> | Edit configuration file      |
+| <kbd>Leader</kbd> <kbd>cc</kbd> | Edit configuration file      |
 | <kbd>Leader</kbd> <kbd>ch</kbd> | Open help page               |
 | <kbd>Leader</kbd> <kbd>ci</kbd> | Open GitHub page in new tab  |
 | <kbd>Leader</kbd> <kbd>cr</kbd> | Reload configuration file    |
@@ -130,7 +130,7 @@ This table contains all the custom keybindings added by qute2k, find [default qu
 | ------------------------------- | ------------------------------- |
 | <kbd>Leader</kbd> <kbd>fc</kbd> | Yank link                       |
 | <kbd>Leader</kbd> <kbd>fd</kbd> | Download video with youtube-dl  |
-| <kbd>Leader</kbd> <kbd>fh</kbd> | Open link in new background tab |
+| <kbd>Leader</kbd> <kbd>ff</kbd> | Open link in new background tab |
 | <kbd>Leader</kbd> <kbd>fi</kbd> | Activate hints for inputs       |
 | <kbd>Leader</kbd> <kbd>fo</kbd> | Open link in new window         |
 | <kbd>Leader</kbd> <kbd>fp</kbd> | Open link in private window     |
@@ -141,8 +141,8 @@ This table contains all the custom keybindings added by qute2k, find [default qu
 
 | Shortcut                        | Action              |
 | ------------------------------- | ------------------- |
-| <kbd>Leader</kbd> <kbd>qa</kbd> | Close the browser   |
-| <kbd>Leader</kbd> <kbd>qq</kbd> | Close current tab   |
+| <kbd>Leader</kbd> <kbd>qd</kbd> | Close current tab   |
+| <kbd>Leader</kbd> <kbd>qq</kbd> | Close the browser   |
 | <kbd>Leader</kbd> <kbd>qr</kbd> | Restart the browser |
 | <kbd>Leader</kbd> <kbd>qt</kbd> | Close other tabs    |
 | <kbd>Leader</kbd> <kbd>qw</kbd> | Close other windows |
