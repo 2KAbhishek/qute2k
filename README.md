@@ -169,28 +169,28 @@ To edit keybindings visit: [config.py](./config.py)
 
 | Keybinding         | Action                                                             |
 | ------------------ | ------------------------------------------------------------------ |
-| <key>DEFAULT</key> | [DuckDuckGo](https://duckduckgo.com/?q={})                         |
-| <key>am</key>      | [Amazon](https://amazon.com/s?k={})                                |
-| <key>aw</key>      | [Arch Linux](https://wiki.archlinux.org/?search={})                |
-| <key>bn</key>      | [Bing](https://bing.com/search?q={})                               |
-| <key>dd</key>      | [DuckDuckGo](https://duckduckgo.com/?q={})                         |
-| <key>gg</key>      | [Google](https://google.com/search?q={})                           |
-| <key>gh</key>      | [GitHub](https://github.com/search?q={})                           |
-| <key>gho</key>     | [GitHub Open](https://github.com/{})                               |
-| <key>ghp</key>     | [GitHub PRs](https://www.github.com/pulls)                         |
-| <key>ghr</key>     | [GitHub Repo](https://github.com/2kabhishek/{})                    |
-| <key>jr</key>      | [JIRA Ticket](https://healthsparq.atlassian.net/browse/{})         |
-| <key>mp</key>      | [Google Maps](https://google.com/maps?q={})                        |
-| <key>rd</key>      | [Reddit](https://reddit.com/search/?q={})                          |
-| <key>rds</key>     | [Reddit Sub](https://reddit.com/r/{})                              |
-| <key>rt</key>      | [Rotten Tomatoes](https://rottentomatoes.com/search?search={})     |
-| <key>so</key>      | [Stack Overflow](https://stackoverflow.com/search?q={})            |
-| <key>sp</key>      | [Spotify](https://open.spotify.com/search/{})                      |
-| <key>tw</key>      | [Twitter](https://twitter.com/search?q={})                         |
-| <key>ud</key>      | [Urban Dictionary](https://urbandictionary.com/define.php?term={}) |
-| <key>wk</key>      | [Wikipedia](https://en.wikipedia.org/wiki/{})                      |
-| <key>yt</key>      | [YouTube](https://youtube.com/results?search_query={})             |
-| <key>ytm</key>     | [YouTube Music](https://music.youtube.com/search?q={})             |
+| <kbd>DEFAULT</kbd> | [DuckDuckGo](https://duckduckgo.com/?q={})                         |
+| <kbd>am</kbd>      | [Amazon](https://amazon.com/s?k={})                                |
+| <kbd>aw</kbd>      | [Arch Linux](https://wiki.archlinux.org/?search={})                |
+| <kbd>bn</kbd>      | [Bing](https://bing.com/search?q={})                               |
+| <kbd>dd</kbd>      | [DuckDuckGo](https://duckduckgo.com/?q={})                         |
+| <kbd>gg</kbd>      | [Google](https://google.com/search?q={})                           |
+| <kbd>gh</kbd>      | [GitHub](https://github.com/search?q={})                           |
+| <kbd>gho</kbd>     | [GitHub Open](https://github.com/{})                               |
+| <kbd>ghp</kbd>     | [GitHub PRs](https://www.github.com/pulls)                         |
+| <kbd>ghr</kbd>     | [GitHub Repo](https://github.com/2kabhishek/{})                    |
+| <kbd>jr</kbd>      | [JIRA Ticket](https://healthsparq.atlassian.net/browse/{})         |
+| <kbd>mp</kbd>      | [Google Maps](https://google.com/maps?q={})                        |
+| <kbd>rd</kbd>      | [Reddit](https://reddit.com/search/?q={})                          |
+| <kbd>rds</kbd>     | [Reddit Sub](https://reddit.com/r/{})                              |
+| <kbd>rt</kbd>      | [Rotten Tomatoes](https://rottentomatoes.com/search?search={})     |
+| <kbd>so</kbd>      | [Stack Overflow](https://stackoverflow.com/search?q={})            |
+| <kbd>sp</kbd>      | [Spotify](https://open.spotify.com/search/{})                      |
+| <kbd>tw</kbd>      | [Twitter](https://twitter.com/search?q={})                         |
+| <kbd>ud</kbd>      | [Urban Dictionary](https://urbandictionary.com/define.php?term={}) |
+| <kbd>wk</kbd>      | [Wikipedia](https://en.wikipedia.org/wiki/{})                      |
+| <kbd>yt</kbd>      | [YouTube](https://youtube.com/results?search_query={})             |
+| <kbd>ytm</kbd>     | [YouTube Music](https://music.youtube.com/search?q={})             |
 
 ## 🧑‍💻 Behind The Code
 
