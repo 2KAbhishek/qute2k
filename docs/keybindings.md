@@ -1,4 +1,4 @@
-# qute2k Keybindings
+# [qute2k](https://github.com/2kabhishek/qute2k) [Keybindings](https://github.com/2KAbhishek/qute2k/blob/main/docs/keybindings.md)
 
 This table contains all the custom keybindings added by qute2k, find [default qutebrowser bindings here](qute://help/img/cheatsheet-big.png)
 
