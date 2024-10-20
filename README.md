@@ -52,18 +52,18 @@ Installation is as simple as cloning and symlinking
 git clone https://github.com/2kabhishek/qute2k
 ```
 
+On Linux
 ```bash
-# On Linux
 ln -sfnv $PWD/qute2k $HOME/.config/qutebrowser
 ```
 
+On Mac
 ```bash
-# On Mac
 ln -sfnv $PWD/qute2k $HOME/.qutebrowser
 ```
 
+On Windows
 ```powershell
-# On Windows
 New-Item -ItemType SymbolicLink -Path "$env:APPDATA\qutebrowser\config" -Target "$PWD\qute2k" -Force
 ```
 
