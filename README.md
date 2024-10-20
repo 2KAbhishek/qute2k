@@ -53,16 +53,19 @@ git clone https://github.com/2kabhishek/qute2k
 ```
 
 On Linux
+
 ```bash
 ln -sfnv $PWD/qute2k $HOME/.config/qutebrowser
 ```
 
 On Mac
+
 ```bash
 ln -sfnv $PWD/qute2k $HOME/.qutebrowser
 ```
 
 On Windows
+
 ```powershell
 New-Item -ItemType SymbolicLink -Path "$env:APPDATA\qutebrowser\config" -Target "$PWD\qute2k" -Force
 ```
@@ -94,6 +97,10 @@ I have always wanted a mouse less workflow, but the browser was always a blocker
 - [dots2k](https://github.com/2kabhishek/dots2k) — Dev Environment
 - [nvim2k](https://github.com/2kabhishek/nvim2k) — Personalized Editor
 - [sway2k](https://github.com/2kabhishek/sway2k) — Desktop Environment
+
+### More Info
+
+- [nightblue](https://github.com/2KAbhishek/nightblue) — A dark theme for Firefox, with `userChrome` support.
 
 <hr>
 
