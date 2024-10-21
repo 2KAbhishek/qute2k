@@ -20,7 +20,7 @@
 <a href="https://github.com/2KAbhishek/qute2k/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/qute2k?style=flat&color=e06c75&label="> </a>
 
-<h3>The fastest and qutest browser 🌐🩷</h3>
+<h3>The fastest and qutest browser 🌐🎀</h3>
 
 <figure>
   <img src="images/screenshot.png" alt="qute2k in action">
