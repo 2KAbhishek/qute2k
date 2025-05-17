@@ -20,7 +20,8 @@ config.set(
 # Variables
 leader = " "
 ss_dir = "~/Pictures/Screenshots/"
-timestamp = strftime("%Y-%m-%d-%H-%M-%S", localtime())  # updates on every config-source
+# updates on every config-source
+timestamp = strftime("%Y-%m-%d-%H-%M-%S", localtime())
 terminal = "alacritty"
 editor = "nvim"
 username = "2kabhishek"
@@ -105,7 +106,7 @@ c.colors.tabs.selected.even.bg = accent
 c.colors.tabs.selected.odd.bg = accent
 
 # Font
-font_size = "12pt"
+font_size = "10pt"
 font_family = "FiraCode Nerd Font"
 font = font_size + " " + font_family
 c.fonts.default_size = font_size
