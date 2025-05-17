@@ -29,4 +29,3 @@ settings:
     https://mail.google.com?extsrc=mailto&url=%25s: true
   content.site_specific_quirks.skip:
     global:
-    - ua-slack
